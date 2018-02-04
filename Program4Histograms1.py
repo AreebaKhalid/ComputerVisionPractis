@@ -7,7 +7,7 @@ image = cv2.imread('./images/input.jpg')
 histogram = cv2.calcHist([image],[0],None,[256],[0,256])
 
 #ravel() flatens our image array from 2 to 1
-plt.hist(image.reveal(),256,[0,256])
+plt.hist(image.ravel(),256,[0,256])
 plt.show()
 
 #viewing separate bgr channels
