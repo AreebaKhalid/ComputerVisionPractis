@@ -8,3 +8,4 @@ cv2.putText(image, 'Hello World!',(75,290),cv2.FONT_HERSHEY_COMPLEX,2,(100,170,0
 cv2.imshow("Hellow World",image)
 cv2.waitKey()
 cv2.destroyAllWindows()
+
